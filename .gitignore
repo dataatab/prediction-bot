@@ -1,0 +1,92 @@
+# ===========================================
+# SECURITY - NEVER COMMIT THESE
+# ===========================================
+
+# Environment variables (API keys, secrets)
+.env
+.env.local
+.env.production
+.env.*
+
+# Private keys
+*.pem
+*.key
+*private_key*
+*secret*
+*credentials*
+wallet.json
+keystore/
+
+# Kalshi RSA keys
+kalshi_*.pem
+rsa_private*
+
+# Polymarket/Ethereum wallets
+*wallet*.json
+*keystore*
+
+# ===========================================
+# PYTHON
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ===========================================
+# IDE / EDITOR
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ===========================================
+# PROJECT SPECIFIC
+# ===========================================
+
+# Logs
+logs/
+*.log
+
+# Database files (local testing)
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
