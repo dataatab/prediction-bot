@@ -7,7 +7,6 @@
 .env.local
 .env.production
 .env.*
-!.env.example
 
 # Private keys
 *.pem

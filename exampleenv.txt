@@ -1,0 +1,24 @@
+# ===========================================
+# COPY THIS FILE TO .env AND FILL IN VALUES
+# NEVER COMMIT .env TO GIT
+# ===========================================
+
+# Kalshi API
+KALSHI_API_KEY=your_api_key_here
+KALSHI_PRIVATE_KEY_PATH=./keys/kalshi_private.pem
+KALSHI_API_URL=https://trading-api.kalshi.com/trade-api/v2
+
+# Polymarket / Ethereum
+POLY_PRIVATE_KEY=0x_your_private_key_here
+POLYGON_RPC_URL=https://polygon-rpc.com
+
+# Database
+DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/prediction_bot
+
+# Trading Parameters
+MIN_SPREAD_CENTS=2
+MAX_POSITION_SIZE=100
+ENABLE_LIVE_TRADING=false
+
+# Logging
+LOG_LEVEL=INFO
